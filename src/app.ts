@@ -9,4 +9,4 @@ app.get("/", (req, res) => {
 
 app.listen(3000, () => {
   console.log("3000 포트에서 서버가 동작중입니다.");
-});
+}); //
