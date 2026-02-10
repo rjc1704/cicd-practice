@@ -4,7 +4,7 @@ import "dotenv/config";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send(`<h1>Hello Express! DB_HOST: ${process.env.DB_HOST} </h1>`);
+  res.send(`<h1>Hello Express!`);
 });
 
 app.listen(3000, () => {
